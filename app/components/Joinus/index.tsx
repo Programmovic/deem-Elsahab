@@ -13,32 +13,26 @@ const Join = () => {
                     </p>
                 </div>
 
-                <div className=" flex justify-center items-center mx-auto max-w-4xl pt-5">
-                <div className="flex flex-nowrap max-[945px]:flex-wrap items-center mx-5 p-5 sm:p-0 rounded-xl justify-between bg-lightgrey sm:rounded-full">
-                        <div>
-                            <input
-                                type="name"
-                                className="my-2 py-2 sm:px-4 lg:text-lg text-black sm:rounded-full bg-lightgrey pl-1 focus:outline-none bg-emailbg focus:text-black"
-                                placeholder="  الاسم   "
-                                autoComplete="off"
-                            />
-                        </div>
-                        <div>
-                            <input
-                                type="email"
-                                className="my-2 py-2 sm:px-4 lg:text-lg text-black sm:border-l border-linegrey bg-lightgrey focus:outline-none bg-emailbg focus:text-black"
-                                placeholder="بريدك الإلكتروني"
-                                autoComplete="off"
-                            />
-                        </div>
-                        <div className="sm:mr-3">
-                            <button
-                                type="submit"
-                                className="joinButton w-full sm:w-0 text-lg text-white font-semibold text-center rounded-xl sm:rounded-full bg-blue hover:bg-btnblue"
-                            >
-                                انضم الآن!
-                            </button>
-                        </div>
+                <div className="flex justify-center items-center mx-auto max-w-lg pt-5">
+                    <div className="w-full bg-lightgrey p-6 rounded-3xl shadow-md">
+                        <input
+                            type="text"
+                            className="w-full mb-3 py-3 px-5 text-black text-lg rounded-full bg-emailbg focus:outline-none focus:ring-2 focus:ring-blue-300 transition-all"
+                            placeholder="الاسم"
+                            autoComplete="off"
+                        />
+                        <input
+                            type="email"
+                            className="w-full mb-4 py-3 px-5 text-black text-lg rounded-full bg-emailbg focus:outline-none focus:ring-2 focus:ring-blue-300 transition-all"
+                            placeholder="بريدك الإلكتروني"
+                            autoComplete="off"
+                        />
+                        <button
+                            type="submit"
+                            className="w-full py-3 text-white text-lg font-semibold rounded-full bg-blue hover:bg-btnblue transition-all shadow-sm"
+                        >
+                            انضم الآن!
+                        </button>
                     </div>
                 </div>
 
